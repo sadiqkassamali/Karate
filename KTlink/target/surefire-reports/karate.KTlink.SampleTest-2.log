@@ -1,0 +1,23 @@
+01:38:08.297 request:
+1 > GET https://restcountries.eu/rest/v2/upload
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Type: text/csv
+1 > Host: restcountries.eu
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_192)
+
+01:38:08.427 response time in milliseconds: 129.52
+1 < 404
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Origin: *
+1 < CF-RAY: 4b4b6357bdea71a3-ORD
+1 < Cache-Control: public, max-age=86400
+1 < Connection: keep-alive
+1 < Content-Length: 0
+1 < Date: Sat, 09 Mar 2019 07:38:13 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=dd20dc121a50778feff6d839618e60f841552117093; expires=Sun, 08-Mar-20 07:38:13 GMT; path=/; domain=.restcountries.eu; HttpOnly
+
+01:38:08.430 status code was: 404, expected: 200, response time: 130, url: https://restcountries.eu/rest/v2/upload, response: 

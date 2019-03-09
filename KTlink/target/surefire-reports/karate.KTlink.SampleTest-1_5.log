@@ -1,0 +1,23 @@
+01:45:31.587 request:
+1 > GET https://restcountries.eu/rest/v2/capital/tallinn
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: restcountries.eu
+1 > User-Agent: Apache-HttpClient/4.5.5 (Java/1.8.0_192)
+
+01:45:31.704 response time in milliseconds: 115.71
+1 < 200
+1 < Access-Control-Allow-Headers: Accept, X-Requested-With
+1 < Access-Control-Allow-Methods: GET
+1 < Access-Control-Allow-Origin: *
+1 < CF-RAY: 4b4b6e2a48d4c52e-ORD
+1 < Cache-Control: public, max-age=86400
+1 < Connection: keep-alive
+1 < Content-Type: application/json;charset=utf-8
+1 < Date: Sat, 09 Mar 2019 07:45:36 GMT
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Server: cloudflare
+1 < Set-Cookie: __cfduid=ddf965b0c5a3b73fedf9969d1a903622d1552117536; expires=Sun, 08-Mar-20 07:45:36 GMT; path=/; domain=.restcountries.eu; HttpOnly
+1 < Transfer-Encoding: chunked
+[{"name":"Estonia","topLevelDomain":[".ee"],"alpha2Code":"EE","alpha3Code":"EST","callingCodes":["372"],"capital":"Tallinn","altSpellings":["EE","Eesti","Republic of Estonia","Eesti Vabariik"],"region":"Europe","subregion":"Northern Europe","population":1315944,"latlng":[59.0,26.0],"demonym":"Estonian","area":45227.0,"gini":36.0,"timezones":["UTC+02:00"],"borders":["LVA","RUS"],"nativeName":"Eesti","numericCode":"233","currencies":[{"code":"EUR","name":"Euro","symbol":"€"}],"languages":[{"iso639_1":"et","iso639_2":"est","name":"Estonian","nativeName":"eesti"}],"translations":{"de":"Estland","es":"Estonia","fr":"Estonie","ja":"エストニア","it":"Estonia","br":"Estônia","pt":"Estónia","nl":"Estland","hr":"Estonija","fa":"استونی"},"flag":"https://restcountries.eu/data/est.svg","regionalBlocs":[{"acronym":"EU","name":"European Union","otherAcronyms":[],"otherNames":[]}],"cioc":"EST"}]
+
